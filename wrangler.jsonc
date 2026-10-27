@@ -1,6 +1,6 @@
 {
     "name": "bark-worker",
-    "main": "main.js",
+    "main": "main_kv.js",
     "compatibility_date": "2026-03-01",
     "compatibility_flags": [
         "nodejs_compat"
@@ -8,11 +8,10 @@
     "observability": {
         "enabled": true
     },
-    "d1_databases": [
+    "kv_namespaces": [
         {
             "binding": "database",
-            "database_name": "common",
-            "database_id": "42dd4492-1837-4d08-aa3d-d3f702dbb551"
+            "id": "c7286d7692594c98b54b61ca30b9b536"
         }
     ],
     "keep_vars": true,
@@ -21,6 +20,5 @@
         "ALLOW_QUERY_NUMS": "true",
         "ROOT_PATH": "/",
         // "BASIC_AUTH": ""
-        
     }
 }
