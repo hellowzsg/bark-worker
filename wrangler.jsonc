@@ -21,5 +21,6 @@
         "ALLOW_QUERY_NUMS": "true",
         "ROOT_PATH": "/",
         // "BASIC_AUTH": ""
+        
     }
 }
